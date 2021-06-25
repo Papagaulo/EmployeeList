@@ -1,0 +1,17 @@
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/EmployeeManagement.Services.deps.json
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/EmployeeManagement.Services.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/ref/EmployeeManagement.Services.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/EmployeeManagement.Services.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/EmployeeManagement.Brokers.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/EmployeeManagement.Models.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/EmployeeManagement.Brokers.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/bin/Debug/net5.0/EmployeeManagement.Models.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.csproj.AssemblyReference.cache
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.GeneratedMSBuildEditorConfig.editorconfig
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.AssemblyInfoInputs.cache
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.AssemblyInfo.cs
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.csproj.CoreCompileInputs.cache
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.csproj.CopyComplete
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/ref/EmployeeManagement.Services.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/obj/Debug/net5.0/EmployeeManagement.Services.pdb

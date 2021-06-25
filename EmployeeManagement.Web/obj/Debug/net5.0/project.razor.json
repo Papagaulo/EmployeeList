@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -258866148,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Pages.EmployeeListBase",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeListBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManagement.Web.Pages.EmployeeListBase"
+        }
+      },
+      {
+        "HashCode": -255525817,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManagement.Web.Pages.EmployeeListBase",
+        "AssemblyName": "EmployeeManagement.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManagement.Web.Pages.EmployeeListBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManagement.Web.Pages.EmployeeListBase",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1188022480,
         "Kind": "Components.Component",
         "Name": "EmployeeManagement.Web.Pages.EmployeeList",

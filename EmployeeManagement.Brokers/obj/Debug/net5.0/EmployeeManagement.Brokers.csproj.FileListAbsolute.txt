@@ -1,0 +1,15 @@
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/EmployeeManagement.Brokers.deps.json
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/EmployeeManagement.Brokers.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/ref/EmployeeManagement.Brokers.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/EmployeeManagement.Brokers.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/EmployeeManagement.Models.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/EmployeeManagement.Models.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.csproj.AssemblyReference.cache
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.GeneratedMSBuildEditorConfig.editorconfig
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.AssemblyInfoInputs.cache
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.AssemblyInfo.cs
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.csproj.CoreCompileInputs.cache
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.csproj.CopyComplete
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/ref/EmployeeManagement.Brokers.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.pdb

@@ -75,6 +75,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "EmployeeManagement.Brokers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EmployeeManagement.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Brokers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Brokers.dll": {}
+        }
+      },
+      "EmployeeManagement.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Models.dll": {}
+        }
+      },
+      "EmployeeManagement.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EmployeeManagement.Brokers": "1.0.0",
+          "EmployeeManagement.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Services.dll": {}
+        }
       }
     }
   },
@@ -185,10 +222,28 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "EmployeeManagement.Brokers/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagement.Brokers/EmployeeManagement.Brokers.csproj",
+      "msbuildProject": "../EmployeeManagement.Brokers/EmployeeManagement.Brokers.csproj"
+    },
+    "EmployeeManagement.Models/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagement.Models/EmployeeManagement.Models.csproj",
+      "msbuildProject": "../EmployeeManagement.Models/EmployeeManagement.Models.csproj"
+    },
+    "EmployeeManagement.Services/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagement.Services/EmployeeManagement.Services.csproj",
+      "msbuildProject": "../EmployeeManagement.Services/EmployeeManagement.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EmployeeManagement.Brokers >= 1.0.0",
+      "EmployeeManagement.Models >= 1.0.0",
+      "EmployeeManagement.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -216,7 +271,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/EmployeeManagement.Brokers.csproj": {
+              "projectPath": "/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/EmployeeManagement.Brokers.csproj"
+            },
+            "/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Models/EmployeeManagement.Models.csproj": {
+              "projectPath": "/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Models/EmployeeManagement.Models.csproj"
+            },
+            "/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/EmployeeManagement.Services.csproj": {
+              "projectPath": "/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Services/EmployeeManagement.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

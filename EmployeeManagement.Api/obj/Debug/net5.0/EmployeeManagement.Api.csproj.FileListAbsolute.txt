@@ -27,3 +27,9 @@
 /home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/obj/Debug/net5.0/ref/EmployeeManagement.Api.dll
 /home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/obj/Debug/net5.0/EmployeeManagement.Api.pdb
 /home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/obj/Debug/net5.0/EmployeeManagement.Api.genruntimeconfig.cache
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/bin/Debug/net5.0/EmployeeManagement.Brokers.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/bin/Debug/net5.0/EmployeeManagement.Models.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/bin/Debug/net5.0/EmployeeManagement.Services.dll
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/bin/Debug/net5.0/EmployeeManagement.Models.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/bin/Debug/net5.0/EmployeeManagement.Services.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Api/bin/Debug/net5.0/EmployeeManagement.Brokers.pdb
