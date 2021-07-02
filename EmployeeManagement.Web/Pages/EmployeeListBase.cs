@@ -21,8 +21,8 @@ namespace EmployeeManagement.Web.Pages
             Employee e1 = new Employee
             {
                 EmployeeId = 1,
-                FirstName = "John",
-                LastName = "Hastings",
+                FirstName = "Vegeta",
+                LastName = "Stephens",
                 Email = "David@pragimtech.com",
                 DateOfBirth = new DateTime(1980, 10, 5),
                 Gender = Gender.Male,
