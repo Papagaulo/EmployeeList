@@ -13,3 +13,6 @@
 /home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.dll
 /home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/ref/EmployeeManagement.Brokers.dll
 /home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.pdb
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/EmployeeManagement.Brokers.runtimeconfig.json
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/bin/Debug/net5.0/EmployeeManagement.Brokers.runtimeconfig.dev.json
+/home/papagaulo/source/repos/EmployeeManagement/EmployeeManagement.Brokers/obj/Debug/net5.0/EmployeeManagement.Brokers.genruntimeconfig.cache
