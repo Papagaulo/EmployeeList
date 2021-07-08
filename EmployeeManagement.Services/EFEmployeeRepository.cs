@@ -29,13 +29,13 @@ namespace EmployeeManagement.Services
             {
                 await context.SaveChangesAsync();
             }
-            
+
         }
 
         public async Task<Employee> GetEmployee(int employeeId)
         {
             return await context.Employees.FirstOrDefaultAsync<Employee>(i => i.EmployeeId == employeeId);
-            
+
         }
 
         public async Task<IEnumerable<Employee>> GetEmployees()
@@ -55,7 +55,7 @@ namespace EmployeeManagement.Services
                 result.DateOfBirth = employee.DateOfBirth;
                 result.Gender = employee.Gender;
                 result.DepartmentId = employee.DepartmentId;
-                
+
                 await context.SaveChangesAsync();
                 return result;
             }
