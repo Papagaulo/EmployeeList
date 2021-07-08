@@ -2,8 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Api.Controllers
 {
-    
-    public class EmployeeController : ControllerBase
+    [ApiController]
+    [Route("[controller]")]
+    public class EmployeesController : ControllerBase
     {
         
     }
