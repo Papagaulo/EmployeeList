@@ -12,47 +12,47 @@ namespace EmployeeManagement.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeesController : ControllerBase
+    public class DepartmentsController : ControllerBase
     {
         private readonly AppDbContext _context;
 
-        public EmployeesController(AppDbContext context)
+        public DepartmentsController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Employees
+        // GET: api/Departments
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
+        public async Task<ActionResult<IEnumerable<Department>>> GetDepartments()
         {
-            return await _context.Employees.ToListAsync();
+            return await _context.Departments.ToListAsync();
         }
 
-        // GET: api/Employees/5
+        // GET: api/Departments/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee>> GetEmployee(byte id)
+        public async Task<ActionResult<Department>> GetDepartment(byte id)
         {
-            var employee = await _context.Employees.FindAsync(id);
+            var department = await _context.Departments.FindAsync(id);
 
-            if (employee == null)
+            if (department == null)
             {
                 return NotFound();
             }
 
-            return employee;
+            return department;
         }
 
-        // PUT: api/Employees/5
+        // PUT: api/Departments/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutEmployee(byte id, Employee employee)
+        public async Task<IActionResult> PutDepartment(byte id, Department department)
         {
-            if (id != employee.EmployeeId)
+            if (id != department.DepartmentId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(employee).State = EntityState.Modified;
+            _context.Entry(department).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +60,7 @@ namespace EmployeeManagement.Api.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!EmployeeExists(id))
+                if (!DepartmentExists(id))
                 {
                     return NotFound();
                 }
@@ -73,19 +73,19 @@ namespace EmployeeManagement.Api.Controllers
             return NoContent();
         }
 
-        // POST: api/Employees
+        // POST: api/Departments
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
+        public async Task<ActionResult<Department>> PostDepartment(Department department)
         {
-            _context.Employees.Add(employee);
+            _context.Departments.Add(department);
             try
             {
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateException)
             {
-                if (EmployeeExists(employee.EmployeeId))
+                if (DepartmentExists(department.DepartmentId))
                 {
                     return Conflict();
                 }
@@ -95,28 +95,28 @@ namespace EmployeeManagement.Api.Controllers
                 }
             }
 
-            return CreatedAtAction("GetEmployee", new { id = employee.EmployeeId }, employee);
+            return CreatedAtAction("GetDepartment", new { id = department.DepartmentId }, department);
         }
 
-        // DELETE: api/Employees/5
+        // DELETE: api/Departments/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteEmployee(byte id)
+        public async Task<IActionResult> DeleteDepartment(byte id)
         {
-            var employee = await _context.Employees.FindAsync(id);
-            if (employee == null)
+            var department = await _context.Departments.FindAsync(id);
+            if (department == null)
             {
                 return NotFound();
             }
 
-            _context.Employees.Remove(employee);
+            _context.Departments.Remove(department);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool EmployeeExists(byte id)
+        private bool DepartmentExists(byte id)
         {
-            return _context.Employees.Any(e => e.EmployeeId == id);
+            return _context.Departments.Any(e => e.DepartmentId == id);
         }
     }
 }
